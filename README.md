@@ -56,7 +56,7 @@ $$Distance(cell) = 1 + \min(Neighbors)$$
 
 ```bash
 ├── 📂Codes    # The final competition code 
-├── 📂FinalHardware'
+├── 📂FinalHardware
 ├── 📂IntialHardwareSetup              
 ├── 📂Wiring+Dimensions                 
 └── 📜 README.md                # Project documentation
