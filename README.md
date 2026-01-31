@@ -1,6 +1,6 @@
 # 🐭 MazeMaster 2026 - Team MazeRiders
 
-![Competition Status](https://img.shields.io/badge/Status-Top%205%20Finalist-gold)
+![Competition Status](https://img.shields.io/badge/Status-Top%204%20Finalist-gold)
 ![Microcontroller](https://img.shields.io/badge/MCU-Arduino%20Nano-blue)
 ![Algorithm](https://img.shields.io/badge/Algorithm-Flood%20Fill-green)
 
