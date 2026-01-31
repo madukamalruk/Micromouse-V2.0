@@ -59,7 +59,7 @@ $$Distance(cell) = 1 + \min(Neighbors)$$
 ├── 📂FinalHardware
 ├── 📂IntialHardwareSetup              
 ├── 📂Wiring+Dimensions                 
-└── 📜 README.md                # Project documentation
+└── 📜 README.md   # Project documentation
 ```
 ## 👥 Team MazeRiders
 • Maduka Malruk
