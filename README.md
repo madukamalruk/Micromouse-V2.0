@@ -33,7 +33,7 @@ This project marks our transition from basic obstacle avoidance to an autonomous
 | **Motors** | N20 Gear Motors with Magnetic Encoders |
 | **Driver** | TB6612FNG Dual Channel Motor Driver |
 | **Power** | 2S LiPo (7.4V - 8.4V) |
-| **Chassis** | Custom PCB & 3D Printed Structural Components |
+| **Chassis** | Breadboard & 3D Printed Structural Components |
 
 ---
 
@@ -55,8 +55,24 @@ $$Distance(cell) = 1 + \min(Neighbors)$$
 ## 📂 Project Structure
 
 ```bash
-├── 📄 Master_Code_Final.ino    # The final competition code (Search + Fast Run)
-├── 📂 Tuning_Tools             # Calibration scripts
-│   ├── Tune_Distance.ino       # Tune TICKS_PER_CELL
-│   └── Tune_Rotation.ino       # Tune TICKS_FOR_90
+├── 📂Codes    # The final competition code 
+├── 📂FinalHardware'
+├── 📂IntialHardwareSetup              
+├── 📂Wiring+Dimensions                 
 └── 📜 README.md                # Project documentation
+```
+## 👥 Team MazeRiders
+• Maduka Malruk
+• Sahas Wickramasinghe
+• Sasidu Madhusankha
+
+## 🏆 Achievements
+• 4th Place - Round 1 (MazeMaster 2026)
+• Top 4 Finalist - Final Round (MazeMaster 2026)
+• Successfully implemented Flood Fill logic with custom PID tuning on an 8-bit microcontroller.
+
+## 🤝 Acknowledgments
+Special thanks to the IEEE RAS UWU Student Branch for organizing the event and the Micromouse community for the open-source knowledge that helped us migrate from Right-Hand Rule logic to Flood Fill.
+
+
+### ⭐ Star this repo if you find our journey inspiring!
