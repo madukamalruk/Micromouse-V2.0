@@ -27,7 +27,7 @@ int TICKS_FOR_90 = 292;
 int TICKS_FOR_180 = 609;   
 int TICKS_PER_CELL = 565;
 
-// INCREASED THIS: Drive further before turning to avoid hitting the corner
+//Drive further before turning to avoid hitting the corner
 int INTERSECTION_OFFSET = 270; 
 
 float previousError = 0;
