@@ -1,14 +1,9 @@
-/*
- * 🐭 MazeMaster 2026 - Flood Fill (SAFE MODE)
- * Fix: Reverted to 'Normal_checking.ino' sensor setup
- * Added: Emergency Brake if wall is detected mid-move
- */
 
 #include <Wire.h>
 #include <VL53L0X.h>
 
 // ==========================
-// 1. PIN DEFINITIONS (From Normal_checking.ino)
+// 1. PIN DEFINITIONS 
 // ==========================
 const int AIN1 = 4; const int AIN2 = 7; const int PWMA = 5; // Left Motor
 const int BIN1 = 9; const int BIN2 = 8; const int PWMB = 6; // Right Motor
@@ -23,8 +18,8 @@ const int xR = 13;
 // ==========================
 // 2. CALIBRATION (Adjusted)
 // ==========================
-const int TICKS_PER_CELL = 565; // [cite: 57]
-const int TICKS_FOR_90   = 240; // [cite: 57]
+const int TICKS_PER_CELL = 565; 
+const int TICKS_FOR_90   = 240; 
 const int BASE_SPEED     = 100;
 const int TURN_SPEED     = 90;
 
