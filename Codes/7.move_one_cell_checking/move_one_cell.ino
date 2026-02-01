@@ -1,4 +1,4 @@
-// --- Motor Pin Definitions (Updated as per your request) ---
+// --- Motor Pin Definitions ---
 const int AIN1 = 4;   // Left Motor Direction 1
 const int AIN2 = 7;   // Left Motor Direction 2
 const int PWMA = 5;   // Left Motor Speed (PWM)
@@ -11,7 +11,7 @@ const int ENCL_A = 2; // Left Encoder Phase A (Interrupt)
 const int buzzer = 10;
 
 // --- Precision Constants ---
-const int TICKS_PER_CELL = 616; // Your measured value
+const int TICKS_PER_CELL = 616; // measured value
 const int SLOW_ZONE = 150;      // Ticks before end to start slowing down
 volatile long leftTicks = 0;    // Counter for encoder pulses
 
@@ -56,8 +56,6 @@ void moveOneCell() {
       analogWrite(PWMB, 120);
     }
     
-    // Optional: Debugging output
-    // Serial.println(leftTicks); 
   }
 
   // 3. Precision Brake
