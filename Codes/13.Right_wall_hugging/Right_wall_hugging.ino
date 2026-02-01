@@ -134,7 +134,7 @@ void loop() {
   // 2. PID CALCULATION (Keep Going Straight)
   float error = 0;
 
-  // Priority: If we have a Right wall, hug it (since you said it hugs right well)
+  // Priority: If we have a Right wall, hug it 
   if (dR < 150) {
     error = WALL_DIST - dR; // Hug Right
   }
