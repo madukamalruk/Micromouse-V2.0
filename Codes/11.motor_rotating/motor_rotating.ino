@@ -1,4 +1,4 @@
-// --- Updated Pin Definitions ---
+// --- Pin Definitions ---
 const int AIN1 = 4;   // Left Motor Direction 1
 const int AIN2 = 7;   // Left Motor Direction 2
 const int PWMA = 5;   // Left Motor Speed (PWM)
@@ -7,7 +7,7 @@ const int BIN1 = 9;   // Right Motor Direction 1 (Updated)
 const int BIN2 = 8;   // Right Motor Direction 2
 const int PWMB = 6;   // Right Motor Speed (PWM) (Updated)
 
-const int STBY = 5;   // Reminder: Connect TB6612 STBY to Arduino 5V pin!
+const int STBY = 5;   //Connect TB6612 STBY to Arduino 5V pin!
 
 void setup() {
   Serial.begin(9600);
