@@ -31,7 +31,7 @@ int TICKS_FOR_90 = 292;
 int TICKS_FOR_180 = 609;   
 int TICKS_PER_CELL = 565;
 
-// INCREASED THIS: Drive further before turning to avoid hitting the corner
+//Drive further before turning to avoid hitting the corner
 int INTERSECTION_OFFSET = 260; 
 
 float previousError = 0;
@@ -56,7 +56,7 @@ void setup() {
   delay(50);
   
   // 2. Mode Switch Init
-  pinMode(MODE_SWITCH_PIN, INPUT_PULLUP); // Critical for A3 switch
+  pinMode(MODE_SWITCH_PIN, INPUT_PULLUP); // for A3 switch
 
   // 3. Sensor Init
   digitalWrite(xL, HIGH); delay(10); sensorL.init(); sensorL.setAddress(0x31); sensorL.setTimeout(500);
