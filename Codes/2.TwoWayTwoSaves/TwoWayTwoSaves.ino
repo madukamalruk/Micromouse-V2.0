@@ -2,10 +2,6 @@
 #include <VL53L0X.h>
 #include <EEPROM.h>
 
-// ================================================================
-//           PROFESSOR'S MASTER CONFIGURATION
-// ================================================================
-
 // *** TUNING MODE SELECTOR ***
 // 0 = COMPETITION MODE (Standard Operation)
 // 1 = TUNE DISTANCE (Moves 3 cells forward then stops)
