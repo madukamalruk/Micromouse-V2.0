@@ -2,10 +2,6 @@
 #include <VL53L0X.h>
 #include <EEPROM.h>
 
-// ================================================================
-//           PROFESSOR'S MASTER CONFIGURATION
-// ================================================================
-
 // *** TUNING MODE SELECTOR ***
 // 0 = COMPETITION MODE (Standard Operation)
 // 1 = TUNE DISTANCE (Moves 3 cells forward then stops)
@@ -13,7 +9,7 @@
 // 3 = TUNE 180 TURN (Turns 180 degrees 2 times)
 const int TUNING_MODE = 2; 
 
-// *** PHYSICAL CONSTANTS (Calibrate these!) ***
+// *** PHYSICAL CONSTANTS  ***
 int TICKS_PER_CELL = 585;  
 int TICKS_FOR_90   = 280;  
 int TICKS_FOR_180  = 575; // Tune this using Mode 3!
